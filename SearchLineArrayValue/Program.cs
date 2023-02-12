@@ -26,9 +26,12 @@ namespace SearchLineArrayValue
                     if (array1[i].Length <= 3)
                         array2[i] = array1[i];
 
-            }
+                Console.WriteLine($"Массив строк у которых длинна <=3: ");
+                Console.WriteLine(string.Join(" ", array2));
+                Console.ReadKey();
+                Console.Clear();
 
-           
+            }          
         }
     }
 }
